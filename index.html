@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Card Application Meeting Minutes</title>
+    <link rel="icon" href="favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="author" content="Ryan Ni" />
+    <meta name="keywords" content="HTML, no-CSS, meeting minutes, example" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Card Application Meeting Minutes</h1>
+      <h2>Brainstorming</h2>
+      <h3>4/15/2025</h3>
+      <nav>
+        <ul>
+          <li><a href="#attendance">Attendance</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#unfinished">Unfinished Business</a></li>
+          <li><a href="#new">New Business</a></li>
+          <li><a href="#comments">Comments & Concerns</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <div>
+          <h3>Present</h3>
+          <ul>
+            <li>John</li>
+            <li>Jane</li>
+          </ul>
+        </div>
+        <details>
+          <summary>Click to see who was absent</summary>
+          <span>
+            <h3>Absent</h3>
+            <ul>
+              <li>
+                <em>ryan's dad ;( </em>
+              </li>
+            </ul>
+          </span>
+        </details>
+      </section>
+
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+          <li>Braindstorm possible ideas around card app</li>
+          <li>Decide core features</li>
+          <li>Sketch basic UI layout</li>
+        </ol>
+      </section>
+
+      <section id="unfinished">
+        <h2>Unfinished Business</h2>
+        <p>
+          <b>None</b>, cus we're <strong>amazing</strong> 😎 (also cus we js
+          started)
+        </p>
+      </section>
+
+      <section id="new">
+        <h2>New Business</h2>
+        <ul>
+          <li>Brainstorm ideas</li>
+          <li>Decide tech stack</li>
+          <li>Assign roles</li>
+        </ul>
+      </section>
+
+      <section id="comments">
+        <h2>Comments</h2>
+        <p>
+          Ryan thinks that we could make some kind of card collecting app
+          similar to <i>Pokemon TCG</i>
+        </p>
+        <p>John thinks that was a stupid idea</p>
+        <p>Ryan cried</p>
+      </section>
+
+      <section id="media">
+        <h2>Media</h2>
+        <img
+          src="https://ryan-ni.vercel.app/ryan.jpg"
+          alt="Team Photo!"
+          width="300"
+          height="300"
+        />
+        <br />
+        team photo, but no one else came other than Ryan ;-;
+        <br />
+
+        <audio controls>
+          <source src="favsong.MP3" />
+          ur brower doesnt support the audio tag
+        </audio>
+        <br />
+        Listen to our team's fav song!
+        <br />
+
+        <video controls width="300" height="200">
+          <source src="favvid.mp4" type="video/mp4" />
+          ur brower doesnt support the audio tag
+        </video>
+        <br />
+        watch our team's fav video!
+      </section>
+
+      <hr/>
+      <section id="feedback">
+        <h2>Feedback Form!</h2>
+
+        <form>
+          <fieldset>
+  
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+  
+            <label for="date">Meeting date:</label>
+            <input type="date" id="date" name="date"><br><br>
+  
+            <label for="topic">Which topic interested you most?</label>
+            <input list="topics" id="topic" name="topic">
+            <datalist id="topics">
+              <option value="Planning">
+              <option value="Pokemon">
+              <option value="Ryan's dad ;-;">
+            </datalist><br><br>
+  
+            <p>Overall Meeting Rating:</p>
+            <input type="radio" id="great" name="rating" value="great">
+            <label for="great">Great</label><br>
+            <input type="radio" id="good" name="rating" value="good">
+            <label for="good">Good</label><br>
+            <input type="radio" id="meh" name="rating" value="meh">
+            <label for="meh">IT WAS TRASH</label><br><br>
+  
+            <label for="improve">One thing we could improve?</label>
+            <select id="improve" name="improve">
+              <option value="pace">pacing</option>
+              <option value="clarity">attendance ;-;</option>
+              <option value="engagement">nothing!</option>
+            </select><br><br>
+
+            <button type="submit">Submit Feedback!</button>
+
+          </fieldset>
+        </form>
+
+
+      </section>  
+      <hr/>
+
+      <footer>
+        <p>Next Meeting (Lecture): 4/17/2025</p>
+        <p>Location: Galbraith</p>
+        <p>Time: 5:00 PM - 6:30 PM</p>
+
+        
+      </footer>
+    </main>
+  </body>
+</html>
